@@ -1,1 +1,12 @@
+Task 2: Networking Tools (Deadline: Jan 22 11:59pm)
+1.Use Wireshark to capture and analyze network packets.
+•⁠  ⁠Install Wireshark (if not already installed).
+•⁠  ⁠Capture packets while browsing the internet.
+•⁠  ⁠Identify HTTP vs. HTTPS traffic.
+•⁠  ⁠Identify the IP address of a website you visit.
+
+2.Use the ping and tracert commands to check network routing.
+•⁠  ⁠Run ping google.com and note the response time.
+
+•⁠  ⁠Use tracert google.com (Windows) or traceroute google.com (Linux) to see the routing path.
 
