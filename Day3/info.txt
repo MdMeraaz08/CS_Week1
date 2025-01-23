@@ -1,0 +1,15 @@
+Task 3: Encryption Hands-on (Deadline: Jan 23 11:59pm)
+
+Encrypt and decrypt a message using OpenSSL.
+
+•⁠  ⁠Install OpenSSL (if not installed already)
+
+Encrypt a text file: openssl enc -aes-256-cbc -salt -in message.txt -out encrypted.txt
+
+Decrypt it: openssl enc -d -aes-256-cbc -in encrypted.txt -out decrypted.txt
+
+
+
+Submission: embed screenshots of the encrypted and decrypted file and cmd execution in ms word and after saving it as pdf , upload it in day 3 branch of WEEK 1 Repo
+
+password : abc@123
