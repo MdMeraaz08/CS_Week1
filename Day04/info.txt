@@ -1,0 +1,9 @@
+Task 4 : Platform Setup  (Deadline: Jan 24 11:59pm)
+
+Install Kali Linux on a virtual machine (VMWare/VirtualBox).
+
+Explore basic tools inside Kali (nmap, whois, netcat).
+
+Watch a short documentary on cybersecurity (like “The Great Hack” or “CyberWar”).
+
+Submission: embed  screenshots of your Kali Linux setup in word file and push it as a pdf in Day 4 branch of WEEK 1 repo
