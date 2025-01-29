@@ -1,0 +1,35 @@
+python3 -u "/Users/mohdmeraaz08/Documents/TDC/Cyber_security/week2Task2/webScrapping.py"
+bs-installmohdmeraaz08@Mohds-MacBook-Air week2Task2 % python3 -u "/Users/mohdmeraaz08/Documents/TDC/Cyber_security/week2Task2/webScrapping.py"
+Title: Maha Kumbh stampede LIVE updates: U.P. Police confirm at least 30 deaths - The Hindu
+Published Date: Wed, 29 Jan 2025 18:16:00 GMT
+------------------------------------------------------------
+Title: Arvind Kejriwal replies to Election Commission, says ‘Yamuna poisoning’ remark made in public interest - Hindustan Times
+Published Date: Wed, 29 Jan 2025 15:30:47 GMT
+------------------------------------------------------------
+Title: Cabinet approves National Critical Mineral Mission with an outlay of Rs 16,300 crore - The Economic Times
+Published Date: Wed, 29 Jan 2025 07:41:25 GMT
+------------------------------------------------------------
+Title: What is the 'Beating Retreat' ceremony and what's its significance in Republic Day celebrations? Explained - India TV News
+Published Date: Wed, 29 Jan 2025 07:28:53 GMT
+------------------------------------------------------------
+Title: Delhi Assembly election 2025 highlights: Kejriwal, Modi made false promises, says Rahul Gandhi - The Hindu
+Published Date: Wed, 29 Jan 2025 05:56:00 GMT
+------------------------------------------------------------
+Title: Budget 2025 income tax: From income tax slab & rate changes to hike in standard deduction, exemption limits - top 10 expectations of salaried taxpayers - The Times of India
+Published Date: Wed, 29 Jan 2025 16:35:29 GMT
+------------------------------------------------------------
+Title: NEET PG: SC declares domicile-based reservation for postgraduate medical admissions unconstitutional - The Indian Express
+Published Date: Wed, 29 Jan 2025 12:56:00 GMT
+------------------------------------------------------------
+Title: Two deaths, 16 fresh GBS cases reported in Maharashtra - The Hindu
+Published Date: Wed, 29 Jan 2025 17:00:00 GMT
+------------------------------------------------------------
+Title: Anti-India Propaganda, Threats To Dignitaries' Children Studying Abroad: Govt Exposes Pannun's SFJ - News18
+Published Date: Wed, 29 Jan 2025 14:21:13 GMT
+------------------------------------------------------------
+Title: The Hindu Morning Digest, January 29, 2025 - The Hindu
+Published Date: Wed, 29 Jan 2025 01:36:00 GMT
+------------------------------------------------------------
+bs-installmohdmeraaz08@Mohds-MacBook-Air week2Task2 % 
+
+
