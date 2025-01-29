@@ -18,6 +18,6 @@ Mini Web Scraping Task:
 
 Write a Python script using BeautifulSoup or Scrapy to scrape public data (like news headlines) from a website.
 
-Bonus: Implement user-agent rotation to avoid detection.
+Bonus: Implement user-agent rotation to avoid detection.(not implemented in code till now @29th jan)
 
 Submission:embed results and screen shots in a word file and push it on GitHub as week 2 task 2
