@@ -1,1 +1,23 @@
+Week 2 Task 2  (Due by 29 Jan)
 
+SQL Injection Practice:
+
+Use Damn Vulnerable Web App (DVWA) or bWAPP to test SQL Injection attacks on a test environment.
+
+Try using sqlmap to automate SQL Injection detection.
+
+
+Use Burp Suite for Web Traffic Analysis:
+
+Install and configure Burp Suite Community Edition to intercept HTTP requests.
+
+Capture login credentials of a test site and understand how attackers steal data.
+
+
+Mini Web Scraping Task:
+
+Write a Python script using BeautifulSoup or Scrapy to scrape public data (like news headlines) from a website.
+
+Bonus: Implement user-agent rotation to avoid detection.
+
+Submission:embed results and screen shots in a word file and push it on GitHub as week 2 task 2
