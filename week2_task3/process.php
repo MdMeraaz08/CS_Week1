@@ -1,3 +1,4 @@
+<?php echo htmlspecialchars($_SESSION['user_name']); ?>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize input to prevent XSS
