@@ -1,0 +1,9 @@
+Mini Project (Due by Feb 2)
+
+Secure a Basic Website:
+
+Find a simple HTML/PHP website (or use an open-source project).
+
+Implement basic security measures like input validation, HTTPS enforcement, and XSS prevention.
+
+Document what changes were made and push it as week 2  Day 3
