@@ -1,9 +1,19 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['name']);
-    $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
-    echo "<h2>Thank You, $name</h2>";
-    echo "<p>We have received your message.</p>";
+    // Sanitize input to prevent XSS
+    function cleanInput($data) {
+        return htmlspecialchars(strip_tags(trim($data)));
+    }
+
+    $name = cleanInput($_POST['name']);
+    $email = filter_var(cleanInput($_POST['email']), FILTER_VALIDATE_EMAIL);
+    $message = cleanInput($_POST['message']);
+
+    if (!$email) {
+        die("Invalid email address.");
+    }
+
+
+    echo "Message sent successfully!";
 }
 ?>
