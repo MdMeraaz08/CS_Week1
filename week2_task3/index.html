@@ -1,0 +1,41 @@
+
+/* index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Home Page</h2>
+        <p>This is a simple website with multiple pages.</p>
+
+        <h3>Security Features Implemented:</h3>
+        <ul>
+            <li><strong>1. Input Validation:</strong> Ensures that user inputs (such as in forms) are properly validated to prevent SQL Injection and other attacks.</li>
+            <li><strong>2. HTTPS Enforcement:</strong> Redirects all HTTP requests to HTTPS to secure data transmission.</li>
+            <li><strong>3. Cross-Site Scripting (XSS) Prevention:</strong> Uses `htmlspecialchars()` and security headers to prevent malicious scripts from running on the site.</li>
+            <li><strong>4. SQL Injection Protection:</strong> Uses prepared statements in the backend (PHP) to prevent database manipulation.</li>
+            <li><strong>5. Secure Password Handling:</strong> Uses `password_hash()` and `password_verify()` for storing and verifying passwords.</li>
+            <li><strong>6. Content Security Policy (CSP):</strong> Restricts external scripts and enforces security policies to prevent code injections.</li>
+            <li><strong>7. Session Security:</strong> Ensures user sessions are properly managed and protected against session hijacking.</li>
+        </ul>
+
+        <p>Additional security enhancements have been made in the backend PHP files to ensure safe user authentication and data handling.</p>
+    </div>
+</body>
+</html>
+
+
+
