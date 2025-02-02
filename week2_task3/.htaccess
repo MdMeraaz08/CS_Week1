@@ -1,3 +1,14 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# XSS Protection
+Header set X-XSS-Protection "1; mode=block"
+
+# Prevent Clickjacking
+Header always append X-Frame-Options SAMEORIGIN
+
+# Content Security Policy (CSP)
+Header set Content-Security-Policy "default-src 'self'; script-src 'self'"
+
+# Disable MIME sniffing
+Header set X-Content-Type-Options nosniff
