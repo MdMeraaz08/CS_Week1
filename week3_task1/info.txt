@@ -1,0 +1,9 @@
+Research & Report (Theory Task) ( Due by Feb 3 11:59pm) 
+
+Each member must research and prepare a document (1-2 pages) explaining:
+
+Types of malware and their impact.
+
+A famous malware attack (e.g., WannaCry, Stuxnet, Pegasus) and how it worked.
+
+Submission: push your documented pdf as week 3 day 1 by today itself , it is not a big task
