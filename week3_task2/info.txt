@@ -1,0 +1,16 @@
+Hands-on Tasks (due by 6 feb 5:35pm)
+*(A) Malware Behavior Analysis*
+Use Cuckoo Sandbox or Hybrid Analysis to analyze a sample malware (use test files, NOT real malware).
+
+Identify:
+File system changes.
+Network activity.
+Registry modifications.
+
+*(B) Digital Forensics Task*
+
+Install Autopsy (or FTK Imager) and analyze a forensic disk image.
+
+Extract and report evidence (deleted files, browsing history, logs).
+
+Submission:- document everything and push it as week 3 Day 2
