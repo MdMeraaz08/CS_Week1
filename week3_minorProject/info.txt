@@ -1,0 +1,9 @@
+Minor Project Start: Malware Detection Tool (feb 8 11:59pm) 
+
+Task: Start working on a basic Python script that scans a directory for suspicious files based on:
+
+File hash comparison (using SHA-256).
+
+Identifying executable files with suspicious behaviors.
+
+Checking VirusTotal API (if possible).
