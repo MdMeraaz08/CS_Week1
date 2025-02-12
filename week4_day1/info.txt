@@ -1,0 +1,12 @@
+Task 1: Network Scanning with Nmap (deadline 12feb 11:59pm)
+
+Objective: Learn how to scan a network and identify open ports.
+
+Install Nmap and scan a local network.
+
+Perform different types of scans:
+Basic scan: nmap <IP>
+Service detection: nmap -sV <IP>
+Aggressive scan: nmap -A <IP>
+
+Submit a report on your findings (What services are running? Any vulnerabilities detected?) as a document , in WEE4 day 1
