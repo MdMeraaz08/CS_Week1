@@ -1,0 +1,9 @@
+Task 2: Exploitation Using Metasploit
+
+Objective: Understand how vulnerabilities are exploited using the Metasploit Framework.
+
+-Install Metasploit Framework.
+-Set up a test environment (use Metasploitable or DVWA).
+-Use Metasploit to exploit a vulnerability (example: Apache or SMB exploit).
+-Document your steps (screenshots + explanation of what you did).
+
