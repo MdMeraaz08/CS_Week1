@@ -1,0 +1,7 @@
+Task 3: Wi-Fi Security with Aircrack-ng (Optional, Only for Testing Purposes)
+
+Objective: Understand how wireless networks can be compromised.
+-Install Aircrack-ng and capture a WPA2 handshake from a test Wi-Fi network.
+-Try to crack the password using a wordlist.
+-Explain how WPA2 can be secured to prevent such attacks.
+
