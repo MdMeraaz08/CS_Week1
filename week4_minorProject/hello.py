@@ -1,6 +1,7 @@
 import hashlib
 import os
 from tqdm import tqdm  # Progress bar
+import nmap  # Nmap module for network scanning
 
 # Load real malware hashes from a file
 def load_malware_hashes(file_path):
@@ -59,8 +60,34 @@ def scan_directory(directory, malware_hashes):
                         print(f"ALERT: Malware detected! {file_path}")
                 pbar.update(1)
 
+# Nmap Network Scanner
+def nmap_scan(target_ip):
+    """
+    Scans the given target IP for open ports and running services using Nmap.
+    """
+    print(f"\nStarting Nmap scan on {target_ip}...\n")
+    
+    nm = nmap.PortScanner()
+    nm.scan(target_ip, arguments='-sV')
+    
+    for host in nm.all_hosts():
+        print(f"\nHost: {host} ({nm[host].hostname()})")
+        print(f"State: {nm[host].state()}")
+        
+        for proto in nm[host].all_protocols():
+            print(f"\nProtocol: {proto}")
+            
+            ports = nm[host][proto].keys()
+            for port in sorted(ports):
+                service = nm[host][proto][port]
+                print(f"Port: {port}\tState: {service['state']}\tService: {service['name']}\tVersion: {service.get('version', 'N/A')}")
+                
 # Load malware hashes
-malware_hashes = load_malware_hashes("malware_hashes.txt")  # Load hashes from a file
+malware_hashes = load_malware_hashes("malware_hashes.txt")
 
-# Run the scanner
+# Run the Nmap network scan
+target_ip = "192.168.1.0/24"  # Change this to your local network range
+nmap_scan(target_ip)
+
+# Run the malware scanner
 scan_directory("/Users/mohdmeraaz08/Documents/TDC/Cyber_security/Week4_minorProject", malware_hashes)
