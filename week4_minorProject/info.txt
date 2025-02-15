@@ -1,0 +1,7 @@
+Task 3 : Continue Minor Project (Malware Detection Tool) (deadline - 15/02/2025 - 11:59pm) 
+
+Implement basic scanning functionality in your Python-based malware detection tool.
+
+Try to detect malicious files based on hash signatures.
+
+Submission: document everything and push it as task 3
