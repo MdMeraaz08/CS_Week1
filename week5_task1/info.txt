@@ -1,0 +1,7 @@
+Introduction to Cloud Security (Deadline 17/02/2025 11:59pm)
+
+Basics of Cloud Security (AWS, Azure, GCP).
+Shared Responsibility Model.
+Common coud security threats (misconfigurations, data leaks).
+Submission:
+Research and summarize 3 common cloud security threats with real-world examples and push it in Wee 5 Task 1
