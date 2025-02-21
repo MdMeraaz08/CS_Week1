@@ -1,0 +1,7 @@
+Identity & Access Management (IAM)
+Learn:
+IAM policies, roles, and permissions in Azure.
+Multi-Factor Authentication (MFA) and role-based access control (RBAC).
+Task
+Set up IAM roles and policies in a cloud provider (Azure).
+Document steps taken and purpose of each permisdion push it as week 5 task 2 
