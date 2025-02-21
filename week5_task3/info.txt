@@ -1,1 +1,11 @@
 
+Cryptography Basics
+Learn :
+Types of Encryption: Symmetric (AES) vs. Asymmetric (RSA).
+
+Hashing algorithms (MD5, SHA-256) and digital signatures.
+Task :
+Encrypt & Decrypt a file using OpenSSL:
+AES-256 encryption
+RSA key pair generation
+Verify hash integrity of a file using SHA-256.
