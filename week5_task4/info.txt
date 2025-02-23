@@ -1,0 +1,11 @@
+Cryptography in Cloud Security
+Learn:
+How cloud providers use encryption (Azure Key Vault).
+
+Transport Layer Security (TLS) & SSL certificates.
+Task:
+Generate a self-signed SSL certificate and install it on a local web server.
+
+Enable encryption for a cloud storage bucket (Azure Blob Storage)
+
+Document steps taken and purpose of each permission push it as week 5 task 4
