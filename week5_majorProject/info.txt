@@ -1,0 +1,35 @@
+Starting Major Project – Cybersecurity Dashboard
+Learn:
+What is a cybersecurity dashboard?
+
+Importance of SIEM (Security Information & Event Management) tools.
+
+Example features: Log monitoring, threat detection alerts, real-time analytics.
+Task:
+Plan & design the cybersecurity dashboard:
+
+Define the features (real-time log monitoring, alerts, analytics).
+
+Choose the tech stack (Python, Flask/Django, React, MongoDB, or SQL).
+
+Submit an initial project proposal as document
+
+---
+
+
+
+Implementing Basic Features of the Dashboard
+
+Learn:
+
+How to collect security logs (system logs, network logs).
+
+How to visualise data using graphs/charts.
+
+Task:
+
+Write a script to collect system logs.
+
+Create a basic frontend for the dashboard with placeholders for data visualisation.
+
+Document everything and push it in GitHub
