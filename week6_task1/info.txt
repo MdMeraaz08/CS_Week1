@@ -1,0 +1,20 @@
+Social Engineering & Security Awareness 
+*Topics:*
+What is Social Engineering?
+Types: Phishing, Pretexting, Baiting, Tailgating, etc.
+
+Real-world case studies of major social engineering attacks.
+
+*Tasks:*
+Research and summarize one real-world social engineering attack (e.g., Twitter Bitcoin Scam, RSA Phishing Attack).
+
+Write a short article/post explaining the importance of cybersecurity awareness.
+*Phishing Attacks & Email Security*
+Topics:
+
+How phishing attacks work.
+Identifying phishing emails.
+Email security best practices (SPF, DKIM, DMARC).
+*Tasks:*
+Find and analyze a real phishing email (safely) or use phishing test websites
+Set up SPF, DKIM, and DMARC on a test domain (if possible).
