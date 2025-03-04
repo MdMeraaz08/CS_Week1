@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>System Logs Dashboard</h1>
+    <div>
+        <h2>Syslog</h2>
+        <pre id="syslog-placeholder">Loading...</pre>
+    </div>
+    <div>
+        <h2>Dmesg</h2>
+        <pre id="dmesg-placeholder">Loading...</pre>
+    </div>
+    <div>
+        <h2>Auth Log</h2>
+        <pre id="authlog-placeholder">Loading...</pre>
+    </div>
+    <div>
+        <h2>Log Event Chart</h2>
+        <canvas id="logChart"></canvas>
+    </div>
+    <script>
+        async function fetchLogs() {
+            try {
+                const response = await fetch('http://127.0.0.1:5000/logs');
+                const data = await response.json();
+                
+                document.getElementById('syslog-placeholder').innerText = data.syslog || 'No data';
+                document.getElementById('dmesg-placeholder').innerText = data.dmesg || 'No data';
+                document.getElementById('authlog-placeholder').innerText = data.authlog || 'No data';
+                
+                updateChart([data.syslog.length, data.dmesg.length, data.authlog.length]);
+            } catch (error) {
+                console.error('Error fetching logs:', error);
+            }
+        }
+
+        function updateChart(logSizes) {
+            const ctx = document.getElementById('logChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Syslog', 'Dmesg', 'Auth Log'],
+                    datasets: [{
+                        label: 'Log Data Size',
+                        data: logSizes,
+                        backgroundColor: ['red', 'blue', 'green']
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+        }
+        
+        setInterval(fetchLogs, 60000); // Refresh logs every 60s
+        fetchLogs();
+    </script>
+</body>
+</html>

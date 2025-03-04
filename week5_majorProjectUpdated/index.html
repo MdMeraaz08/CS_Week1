@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>System Logs Dashboard</h1>
+    <div>
+        <h2>Syslog</h2>
+        <pre id="syslog-placeholder">[Syslog data will be here]</pre>
+    </div>
+    <div>
+        <h2>Dmesg</h2>
+        <pre id="dmesg-placeholder">[Dmesg data will be here]</pre>
+    </div>
+    <div>
+        <h2>Auth Log</h2>
+        <pre id="authlog-placeholder">[Auth log data will be here]</pre>
+    </div>
+    <div>
+        <h2>Chart Example</h2>
+        <canvas id="chartPlaceholder"></canvas>
+    </div>
+    <script>
+        // Sample data for Chart.js
+        const ctx = document.getElementById('chartPlaceholder').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar', // Example chart type
+            data: {
+                labels: ['January', 'February', 'March'],
+                datasets: [{
+                    label: 'Sample Data',
+                    data: [10, 20, 30],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
