@@ -1,0 +1,15 @@
+*Implementing Basic Features of the Dashboard*
+
+*Learn:*
+
+How to collect security logs (system logs, network logs).
+
+How to visualize data using graphs/charts.
+
+*Task:*
+
+Write a script to collect system logs.
+
+Create a basic frontend for the dashboard with placeholders for data visualization. 
+
+Document everything and push it in GitHub
