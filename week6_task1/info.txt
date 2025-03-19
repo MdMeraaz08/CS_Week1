@@ -1,20 +1,16 @@
-Social Engineering & Security Awareness 
-*Topics:*
-What is Social Engineering?
-Types: Phishing, Pretexting, Baiting, Tailgating, etc.
-
-Real-world case studies of major social engineering attacks.
-
-*Tasks:*
-Research and summarize one real-world social engineering attack (e.g., Twitter Bitcoin Scam, RSA Phishing Attack).
-
-Write a short article/post explaining the importance of cybersecurity awareness.
-*Phishing Attacks & Email Security*
+Task 1 – Introduction to Advanced Exploits
 Topics:
+What are Zero-Day Exploits and how they work
 
-How phishing attacks work.
-Identifying phishing emails.
-Email security best practices (SPF, DKIM, DMARC).
-*Tasks:*
-Find and analyze a real phishing email (safely) or use phishing test websites
-Set up SPF, DKIM, and DMARC on a test domain (if possible).
+Understanding Buffer Overflow attacks
+Basics of Reverse Engineering & Exploit Development
+
+Task:
+Read about Buffer Overflow attacks and how they are used in exploits.
+
+Watch a tutorial on basic exploit development.
+
+Set up a test environment using VulnHub or Metasploitable2.
+
+
+Expected Output: A short summary on buffer overflow and exploit development.
