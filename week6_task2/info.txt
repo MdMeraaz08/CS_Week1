@@ -1,0 +1,13 @@
+Task 2– Hands-on Buffer Overflow Exploit
+Topics:
+Identifying vulnerable programs to buffer overflow
+
+Writing a basic exploit script in Python
+
+Using GDB (GNU Debugger) & Immunity Debugger to analyze crashes
+
+Task:
+Perform a buffer overflow attack on a vulnerable program in the test environment.
+
+Write a small Python script to automate the exploit.
+
