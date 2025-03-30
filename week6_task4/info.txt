@@ -1,0 +1,11 @@
+Task 4 – Real-World Exploits & Web Pentesting
+
+Topics:
+How real-world hackers find security loopholes
+Advanced Web Application Penetration Testing
+Introduction to CTF (Capture The Flag) Challenges
+
+Task:
+Use Burp Suite to intercept and modify HTTP requests.
+Solve at least 2 CTF challenges on TryHackMe / Hack The Box.
+Expected Output: Screenshots of CTF challenge completions and Burp Suite findings
