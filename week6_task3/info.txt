@@ -1,0 +1,14 @@
+Task3 – Introduction to Bug Bounty & Web Exploits
+
+ Topics:
+What is Bug Bounty Hunting and how does it work?
+Responsible Disclosure & Ethical Hacking
+Common web vulnerabilities used in bug bounties (SQL Injection, XSS, SSRF)
+
+
+Task:
+Sign up on HackerOne / Bugcrowd / OpenBugBounty.
+Find at least one vulnerable website in a legal bug bounty platform and document your findings.
+Practice SQL Injection & XSS on DVWA (Damn Vulnerable Web App).
+
+Expected Output: A bug bounty report template with findings.
