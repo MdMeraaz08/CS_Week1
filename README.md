@@ -1,3 +1,23 @@
+# 🛡️ CyberSecurity Learning Journey
+
+Welcome to my **CyberSecurity Learning Repository**!  
+This repo documents my week-by-week progress as I explore the vast and exciting world of cybersecurity. From theoretical fundamentals to hands-on labs, you'll find a curated roadmap of everything I’m learning — one week at a time.
+
+---
+
+## 📘 Overview
+
+This repository serves as a personal knowledge base where I:
+- Take notes on key cybersecurity concepts
+- Share hands-on assignments, labs, and challenges
+- Reflect weekly on what I’ve learned
+- Showcase tools and techniques practiced
+- Create a reference for myself and others beginning the same journey
+
+---
+
+## 🗂️ Repository Structure
+
 
 Each week's folder contains:
 - 📖 Conceptual Notes  
@@ -47,8 +67,8 @@ Let’s learn and grow together!
 ## 📬 Connect with Me
 
 - GitHub: [@MdMeraaz08](https://github.com/MdMeraaz08)  
-- LinkedIn: [Mohd Meraaz](https://www.linkedin.com/in/mohd-meraaz/)  
-- Email: meraaz.dev@gmail.com  
+- LinkedIn: [Mohd Meraaz](https://www.linkedin.com/in/mohdmeraaz08/)  
+- Email: meraaz0809@gmail.com
 
 ---
 
